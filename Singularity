@@ -7,7 +7,7 @@ From: ubuntu:14.04
 #/bin/bash ~/miniconda.sh -b -p /opt/conda
 #rm ~/miniconda.sh
 
-# doing this here as the environment section is not processed yet  
+# doing this here as the %environment section is not processed yet  
 # is this going to be ok ^^^^^^^^^^^^
 PATH=/opt/conda/bin:$PATH
 
